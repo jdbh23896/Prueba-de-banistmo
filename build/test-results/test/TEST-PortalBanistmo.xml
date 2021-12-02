@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PortalBanistmo" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-12-02T20:28:16" hostname="LAPTOP-2RJ2Q3TB" time="26.243">
+  <properties/>
+  <testcase name="Ir a portal de banistmo y descargar pdf" classname="PortalBanistmo" time="26.243">
+    <failure message="org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/wps/wcm/connect/www.banistmo.com11237/7487365d-ee74-464e-9444-fc806b2307db/%233.+Contrato+Unico+de+Producto+y+Servicios+Bancarios+Oct15.pdf?MOD=AJPERES&amp;amp;CVID=lKMuboh&quot; title=&quot;Contrato Único de Productos y Servicios Bancarios&quot; target=&quot;_blank&quot;&gt;...&lt;/a&gt; is not clickable at point (1120, 515). Other element would receive the click: &lt;a href=&quot;https://chat.banistmo.com/chat/ChatQuestion.aspx?ModeSource=CHECKSCHEDULE&quot; target=&quot;_blank&quot; class=&quot;btn-chat&quot;&gt;...&lt;/a&gt;&#10;  (Session info: chrome=96.0.4664.45)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-2RJ2Q3TB', ip: '192.168.1.125', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\JUANDA\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59919}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a8a75ea767f80a5c575a95f564e56e80" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/wps/wcm/connect/www.banistmo.com11237/7487365d-ee74-464e-9444-fc806b2307db/%233.+Contrato+Unico+de+Producto+y+Servicios+Bancarios+Oct15.pdf?MOD=AJPERES&amp;amp;CVID=lKMuboh&quot; title=&quot;Contrato Único de Productos y Servicios Bancarios&quot; target=&quot;_blank&quot;&gt;...&lt;/a&gt; is not clickable at point (1120, 515). Other element would receive the click: &lt;a href=&quot;https://chat.banistmo.com/chat/ChatQuestion.aspx?ModeSource=CHECKSCHEDULE&quot; target=&quot;_blank&quot; class=&quot;btn-chat&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-2RJ2Q3TB', ip: '192.168.1.125', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\JUANDA\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59919}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a8a75ea767f80a5c575a95f564e56e80
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1231)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$AVPY00gv.performAs$accessor$3fgIseCo(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$AVPY00gv.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at Tasks.Steps.performAs(Steps.java:16)
+	at Tasks.Steps$ByteBuddy$61iu9yfx.performAs$accessor$IqdFXxlP(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at Tasks.Steps$ByteBuddy$61iu9yfx.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at net.serenitybdd.screenplay.Actor.wasAbleTo(Actor.java:158)
+	at stepdefinitions.validate.elUsuarioIngresaALaPaginaDelPortalDeBanistmo(validate.java:23)
+	at ✽.el usuario ingresa a la pagina del portal de banistmo(src/test/resources/features/register.feature:5)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@59fa2a76
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@22bf5205
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@12078626
+dic. 02, 2021 3:28:17 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 27761
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+dic. 02, 2021 3:28:21 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Ir a portal de banistmo y descargar pdf:Given el usuario ingresa a la pagina del portal de banistmo [Usuario home page [usuario opens the Paginatest]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Ir a portal de banistmo y descargar pdf:Given el usuario ingresa a la pagina del portal de banistmo [Usuario home page [usuario opens the Paginatest]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@70118ae5
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@578a4fc0
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Ir a portal de banistmo y descargar pdf:Given el usuario ingresa a la pagina del portal de banistmo [Usuario home page [usuario opens the Paginatest], Usuario steps [usuario clicks on botonproductosServicios]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2431446a
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Ir a portal de banistmo y descargar pdf:Given el usuario ingresa a la pagina del portal de banistmo [Usuario home page [usuario opens the Paginatest], Usuario steps [usuario clicks on botonproductosServicios, usuario clicks on botonDepositos]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@33a56acb
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Ir a portal de banistmo y descargar pdf:Given el usuario ingresa a la pagina del portal de banistmo [Usuario home page [usuario opens the Paginatest], Usuario steps [usuario clicks on botonproductosServicios, usuario clicks on botonDepositos, usuario clicks on CuentaComercial]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@553891bf
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Ir a portal de banistmo y descargar pdf:Given el usuario ingresa a la pagina del portal de banistmo [Usuario home page [usuario opens the Paginatest], Usuario steps [usuario clicks on botonproductosServicios, usuario clicks on botonDepositos, usuario clicks on CuentaComercial, usuario clicks on Documentos]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@19f7c5c4
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@cde1ab4
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@760ce8a1
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Ir a portal de banistmo y descargar pdf:Given el usuario ingresa a la pagina del portal de banistmo [Usuario home page [usuario opens the Paginatest], Usuario steps [usuario clicks on botonproductosServicios, usuario clicks on botonDepositos, usuario clicks on CuentaComercial, usuario clicks on Documentos, usuario clicks on Pdf]], When el puede descargar el archivo pdf, Then valida que si se descargo correctamente
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Ir a portal de banistmo y descargar pdf:Given el usuario ingresa a la pagina del portal de banistmo [Usuario home page [usuario opens the Paginatest], Usuario steps [usuario clicks on botonproductosServicios, usuario clicks on botonDepositos, usuario clicks on CuentaComercial, usuario clicks on Documentos, usuario clicks on Pdf]], When el puede descargar el archivo pdf, Then valida que si se descargo correctamente]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Ir a portal de banistmo y descargar pdf:Given el usuario ingresa a la pagina del portal de banistmo [Usuario home page [usuario opens the Paginatest], Usuario steps [usuario clicks on botonproductosServicios, usuario clicks on botonDepositos, usuario clicks on CuentaComercial, usuario clicks on Documentos, usuario clicks on Pdf]], When el puede descargar el archivo pdf, Then valida que si se descargo correctamente]
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Ir a portal de banistmo y descargar pdf
+---------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP usuario clicks on Pdf
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - element click intercepted: Element <a href="/wps/wcm/connect/www.banistmo.com11237/7487365d-ee74-464e-9444-fc806b2307db/%233.+Contrato+Unico+de+Producto+y+Servicios+Bancarios+Oct15.pdf?MOD=AJPERES&amp;CVID=lKMuboh" title="Contrato Único de Productos y Servicios Bancarios" target="_blank">...</a> is not clickable at point (1120, 515). Other element would receive the click: <a href="https://chat.banistmo.com/chat/ChatQuestion.aspx?ModeSource=CHECKSCHEDULE" target="_blank" class="btn-chat">...</a>
+]]></system-err>
+</testsuite>
